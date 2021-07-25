@@ -1,0 +1,28 @@
+npm i @nestjs/cli
+nest new backend
+nest g module pokeapi
+~~service
+~~controller
+
+
+npm i @angular.cli
+npx ng g module pokemon --module=app
+~~service pokemon/pokemon
+~~components pokemon
+
+dotenv
+
+
+
+NestJS
+Middleware - called before route handler is called
+https://docs.nestjs.com/middleware
+Intercepters - access before and after request and response
+https://stackoverflow.com/questions/54863655/whats-the-difference-between-interceptor-vs-middleware-vs-filter-in-nest-js
+NextJS handles exceptions globally of HttpException
+Pipe - validate parameters, transform data
+https://docs.nestjs.com/pipes 
+Guard - extends canActivate, canActivate() returns true or false
+Websockets - // TODO read about it
+
+

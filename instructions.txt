@@ -1,0 +1,37 @@
+7Next Full-Stack Take-home
+
+Instructions: Please spend no more than 3 hours creating an application using the requested frameworks. 
+During your interview, be prepared to walk through the code that you have written, explain design choices, 
+and describe challenges that you encountered. There is no expectation that you complete the entire 
+challenge – it is intentionally long. We are interested in your coding style, thought process, and ability to communicate. 
+
+Once you’ve finished, please push the code to a public repository and send it to matthew.magee2@7-11.com with 
+the subject “[Candidate Name] – 7Next Take-home Repo.”
+
+Most importantly – have fun! 
+
+Framework: Angular and NestJS
+
+Prompt: 
+Using the PokéAPI (https://pokeapi.co/), create an application that lets you:
+1.	Display a paginated view of Pokémon
+2.	Search for a Pokémon by name
+3.	Provide a detailed view of the Pokémon when an item in the paginated view is clicked
+
+Constraints:
+1.	The frontend should not communicate directly with PokéAPI
+2.	Minimum information on the initial list view should be:
+a.	Pokémon image
+b.	Pokémon name
+3.	Minimum information on the Pokémon details page is:
+a.	Name
+b.	Image
+c.	Generation
+d.	Moves
+e.	Weight
+
+Bonus:
+-	Utilize Docker to containerize the application
+-	Utilize Angular Material on the frontend
+-	Utilize Akita State Management on the frontend
+-	Use validation pipes and class validator on the backend
