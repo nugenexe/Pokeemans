@@ -9,7 +9,7 @@ export class PokemonService {
 
   constructor(private http: HttpClient) { }
 
-  public getPokemon(): Observable<Pokemon[]> {
+  public getPokemon(): Observable<any> {
     return this.http.get('http://localhost:3000/pokemon');
   }
 }
