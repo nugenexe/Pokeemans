@@ -7,8 +7,12 @@ export class PokeApiController {
   
     }
   
-    @Get('getPokemons')
-    public getPokemons(): any {
-      return this.pokeApiService.foo;
+    @Get('getPokemon')
+    public getPokemon(): any {
+      // return this.pokeApiService.foo;
+      let page = this.pokeApiService.getPage(1);
+
+      // return this.pokeApiService.foo;
+      return 0;
     }
 }
